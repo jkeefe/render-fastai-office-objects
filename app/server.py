@@ -10,9 +10,9 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://qz-aistudio-public.s3.amazonaws.com/rosebot/export.pkl'  # Update this URL
+export_file_url = 'https://qz-aistudio-public.s3.amazonaws.com/office-objects/office-model.pkl'  # Update this URL
 export_file_name = 'export.pkl'
-classes = ['flag', 'haring', 'pipes'] # Update the classes here
+classes = ['arcade', 'bevi', 'coffee'] # Update the classes here
 
 path = Path(__file__).parent
 
